@@ -2,7 +2,14 @@
 基于SSD算法的商品识别与自动计价系统
 
 实现效果：
+
 ![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/result.PNG)
+
+单物品识别:
+
+![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/test.jpg)
+
+![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/testResult.JPG)
 
 算法流程：
 1.Prior box matching
