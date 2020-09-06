@@ -7,9 +7,9 @@
 
 单物品识别:
 
-![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/test.jpg)
+![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/singletest.jpg)
 
-![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/testResult.JPG)
+![image](https://github.com/hubooooo/Project-of-Machine-Vision-Course-/blob/master/singletestResult.JPG)
 
 算法流程：
 1.Prior box matching
