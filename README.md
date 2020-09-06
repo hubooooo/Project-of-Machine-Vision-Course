@@ -1,6 +1,22 @@
 # -
 基于SSD算法的商品识别与自动计价系统
 
+算法流程：
+1.Prior box matching
+2.Loss function
+3.Data amplification
+4.Forecasting process
+5.Performance evaluation
+
+具体实施:
+①Data preparation 
+to generate our own datasets and make labels
+②Perform training 
+to modify the default training script content of SSD to match our own dataset
+③Testing 
+to test different combinations of several types of items.
+
+
 YOLO存在三个缺陷：
 
 1.两个bounding box功能的重复降低了模型的精度；
