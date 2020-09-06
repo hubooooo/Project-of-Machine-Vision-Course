@@ -34,6 +34,23 @@ to modify the default training script content of SSD to match our own dataset
 ③Testing 
 to test different combinations of several types of items.
 
+***************************************************************
+
+遇到的实际问题：
+
+商品被遮挡时能否检测？
+
+解决方案-----some tricks of SSD:
+
+·Data augmentation
+
+·Default box
+
+·Hard negative mining
+
+***************************************************************
+
+【补充点】 YOLO与SSD：
 
 YOLO存在三个缺陷：
 
