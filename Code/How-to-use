@@ -1,0 +1,12 @@
+准备训练集
+python generate_tfrecord.py --csv_input=images\train_labels.csv --image_dir=images\train --output_path=train.record
+准备测试集
+python generate_tfrecord.py --csv_input=images\test_labels.csv --image_dir=images\test --output_path=test.record
+开始训练
+python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+输出训练模型
+python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training/model.ckpt-XXXX --output_directory inference_graph
+识别图片，视频中的物体
+python Object_detection_image.py
+python Object_detection_video.py
+python Object_detection_webcam.py
